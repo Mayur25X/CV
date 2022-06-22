@@ -9,7 +9,7 @@
 		$to='mayuruikey5678@gmail.com'; // Receiver Email ID, Replace with your email ID
 		$subject='Form Submission';
 		$message="Name :".$name."\n"."Phone :".$Phone."\n"."Company :".$Company."\n"."Wrote the following :"."\n\n".$msg;
-		$headers="From: ".$email;
+		$headers="From: ".$Email;
 
 		if(mail($to, $subject, $message, $headers)){
 			echo "<h1>Sent Successfully! Thank you"." ".$name.", We will contact you shortly!</h1>";
